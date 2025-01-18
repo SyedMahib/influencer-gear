@@ -94,3 +94,20 @@ li {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
+/* partners related styles */
+
+.partners {
+    width: 1110px;
+    display: grid;
+    gap: 60px;
+    /* justify-content: center;
+    align-items: center; */
+    grid-template-columns: repeat(7, 1fr);
+    /* border: 1px solid black; */
+    /* box-shadow: 1px; */
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+}
