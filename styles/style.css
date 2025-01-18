@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Fonts styles */
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+body {
+    width: 1200px;
+    /* border: 2px solid black; */
+    margin: 0 120px;
+
+}
+
+/* header */
+
+/* .header {
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+
+  /* nav related styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(58, 58, 58, 1);
+}
+
+li {
+    list-style: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* banner related styles */
+.banner {
+    display: flex;
+    gap: 131px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 16px;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 16px;
+}
+
+.banner-btn {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+    border: none;
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    padding: 10px 24px;
+}
+
+.banner-btn i{
+    padding-left: 8px;
+}
+
+.banner-img {
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
