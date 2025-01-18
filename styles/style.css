@@ -20,7 +20,7 @@ body {
 /* .header {
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 } */
 
   /* nav related styles */
@@ -92,5 +92,5 @@ li {
 .banner-img {
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 }
