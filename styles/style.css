@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 *{
@@ -18,7 +19,14 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+.inter-normal {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
   /* shared styles */
 .text-center {
@@ -47,6 +55,7 @@ h5 {
     justify-content: space-between;
     align-items: center;
     margin-top: 90px;
+    /* position: sticky; */
 }
 
 .nav-link {
@@ -101,6 +110,7 @@ li {
     background-color: rgba(224, 44, 109, 1);
     color: white;
     padding: 10px 24px;
+    cursor: pointer;
 }
 
 .banner-btn i{
@@ -151,6 +161,7 @@ li {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 20%);
     border-radius: 5px;
     width: 329px;
+    cursor: pointer;
 }
 
 .collection-card:hover {
@@ -159,6 +170,7 @@ li {
 }
 
 .card-img {
+    width: 100%;
     margin: 16px 15px; 
     width: 300px;
     height: 256px;
@@ -220,6 +232,7 @@ li {
 }
 
 .feature-img {
+    /* width: 100%; */
     border-radius: 7px;
 }
 
@@ -245,6 +258,7 @@ li {
     margin-top: 16px;
     background-color: rgba(224, 44, 109, 1);
     border: none;
+    cursor: pointer;
 }
 
 .icon {
@@ -254,6 +268,7 @@ li {
 /* Footer related styles */
 
 .footer {
+    width: 100%;
     background-color: rgba(10, 8, 38, 1);
     margin-bottom: 0;
 }
@@ -298,3 +313,6 @@ li {
 .social-icons> a {
     color: white;
 }
+
+/* Media query for mobile devices */
+
