@@ -20,6 +20,10 @@ h5 {
     margin: 0;
 }
 
+/* h3 {
+    margin: 0;
+} */
+
 
 
 /* header */
@@ -148,6 +152,11 @@ li {
     /* height: 476px; */
 }
 
+.collection-card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .card-img {
     margin: 16px 15px; 
     width: 300px;
@@ -191,4 +200,50 @@ li {
 
 .see:hover {
     text-decoration: underline;
+}
+
+/* Feature related styles */
+
+.feature-products {
+    width: 1110px;
+    margin: 90px auto;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+
+.feature-img {
+    margin-top: 40px;
+    border-radius: 7px;
+}
+
+.feature-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(10, 8, 38, 1);
+    margin-bottom: 16px;
+}
+
+.feature-description {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.join-btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 24px;
+    background-color: rgba(224, 44, 109, 1);
+    border: none;
+}
+
+.icon {
+    padding-left: 8px;
 }
