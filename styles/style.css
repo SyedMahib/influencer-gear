@@ -89,21 +89,21 @@ li {
 }
 
 .banner-title {
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: 700;
     color: rgba(58, 58, 58, 1);
     margin-bottom: 16px;
 }
 
 .banner-description {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: rgba(58, 58, 58, 1);
     margin-bottom: 16px;
 }
 
 .banner-btn {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     border-radius: 41px;
     border: none;
@@ -144,7 +144,7 @@ li {
 }
 
 .section-title {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 600;
     color: rgba(58, 58, 58, 1);
     padding-bottom: 30px;
@@ -179,14 +179,14 @@ li {
 .card-title {
     margin-left: 15px;
     margin-bottom: 6px;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 500;
     color: rgba(24, 25, 31, 1);
 }
 
 .price {
     margin-left: 15px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.87);
 }
@@ -200,7 +200,7 @@ li {
     margin-left: 15px;
     margin-bottom: 17px;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     color: rgba(120, 120, 133, 1);
 }
@@ -209,7 +209,7 @@ li {
     margin-left: 950px;
     text-decoration: none;
     color: rgba(224, 44, 109, 0.87);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -237,21 +237,21 @@ li {
 }
 
 .feature-title {
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: 700;
     color: rgba(10, 8, 38, 1);
     margin-bottom: 16px;
 }
 
 .feature-description {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 28px;
     color: rgba(108, 108, 108, 1);
 }
 
 .join-btn {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     color: white;
     padding: 10px 24px;
@@ -279,14 +279,14 @@ li {
 }
 
 .footer-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
     padding-top: 50px;
 }
 
 .footer-description-1 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     color: rgba(217, 219, 225, 1);
     padding-top: 5px;
@@ -294,7 +294,7 @@ li {
 }
 
 .footer-description-2 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     color: rgba(217, 219, 225, 1);
     padding-top: 5px;
@@ -316,3 +316,6 @@ li {
 
 /* Media query for mobile devices */
 
+/* .hide {
+    display: none;
+} */
