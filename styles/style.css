@@ -319,3 +319,47 @@ li {
 /* .hide {
     display: none;
 } */
+
+@media screen and (max-width: 576px) {
+   
+    /* nav section */
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    /* .nav-link{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    /* header section */
+
+    .header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* banner section */
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner-img img{
+        width: 100%;
+        /* margin-top: 70px; */
+    }
+
+    .banner-content{
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .banner-title{
+        font-size: 3.0rem;
+    }
+}
+
+
+
